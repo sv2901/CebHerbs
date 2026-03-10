@@ -1,5 +1,6 @@
 import "@/App.css";
 import { Navbar } from "./components/Navbar";
+import { MarqueeRibbon } from "./components/MarqueeRibbon";
 import { HeroSection } from "./components/HeroSection";
 import { AboutSection } from "./components/AboutSection";
 import { ProductsSection } from "./components/ProductsSection";
@@ -14,6 +15,9 @@ import { WhatsAppButton } from "./components/WhatsAppButton";
 function App() {
   return (
     <div className="App min-h-screen bg-background">
+      {/* Marquee Ribbon */}
+      <MarqueeRibbon />
+
       {/* Navigation */}
       <Navbar />
 

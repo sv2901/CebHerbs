@@ -48,7 +48,7 @@ export const Footer = () => {
               <img
                 src={LOGO_URL}
                 alt="CEB Herbs Logo"
-                className="h-16 w-auto mb-6 brightness-0 invert"
+                className="h-16 w-auto mb-6"
               />
               <p className="font-body text-sm text-white/70 leading-relaxed mb-6">
                 Premium botanical herbs and spices supplier. Delivering pure, potent, and 

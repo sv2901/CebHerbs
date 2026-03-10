@@ -9,7 +9,7 @@ const products = [
   {
     name: 'Herbs',
     description: 'Premium quality medicinal and culinary herbs',
-    image: 'https://images.unsplash.com/photo-1628088037513-14c88ec36997?crop=entropy&cs=srgb&fm=jpg&q=85&w=600',
+    image: 'https://customer-assets.emergentagent.com/job_ceb-herbs-premium/artifacts/zifqptuo_herbs.jpg',
   },
   {
     name: 'Spices',
@@ -19,17 +19,17 @@ const products = [
   {
     name: 'Culinary & Seasoning',
     description: 'Perfect blends for culinary excellence',
-    image: 'https://images.unsplash.com/photo-1532336414038-cf19250c5757?crop=entropy&cs=srgb&fm=jpg&q=85&w=600',
+    image: 'https://customer-assets.emergentagent.com/job_ceb-herbs-premium/artifacts/20drhekx_culinary%20herbs.jpg',
   },
   {
     name: 'Dried Flowers',
     description: 'Beautiful preserved botanical flowers',
-    image: 'https://images.unsplash.com/photo-1553499944-3cea7081e412?crop=entropy&cs=srgb&fm=jpg&q=85&w=600',
+    image: 'https://customer-assets.emergentagent.com/job_ceb-herbs-premium/artifacts/lurrwan8_dried%20flower.jpg',
   },
   {
     name: 'Gums & Minerals',
     description: 'Natural gums and mineral extracts',
-    image: 'https://images.unsplash.com/photo-1658315216383-0981970a596b?crop=entropy&cs=srgb&fm=jpg&q=85&w=600',
+    image: 'https://customer-assets.emergentagent.com/job_ceb-herbs-premium/artifacts/pkuw6m3q_gums%20and%20minerals.jpg',
   },
   {
     name: 'Oil Seeds',
@@ -44,11 +44,11 @@ const products = [
   {
     name: 'Oleoresins',
     description: 'Concentrated natural flavor extracts',
-    image: 'https://images.pexels.com/photos/8450222/pexels-photo-8450222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+    image: 'https://customer-assets.emergentagent.com/job_ceb-herbs-premium/artifacts/nu1hfluh_Herbal%20Extract.jpg',
   },
   {
-    name: 'Herb Extract Powder',
-    description: 'Potent powdered botanical extracts',
+    name: 'Herbal Extract',
+    description: 'Potent botanical extracts for wellness',
     image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?crop=entropy&cs=srgb&fm=jpg&q=85&w=600',
   },
 ];

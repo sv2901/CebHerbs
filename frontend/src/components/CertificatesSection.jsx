@@ -1,37 +1,19 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { SealCheck, Medal, Certificate, ShieldCheck, Leaf, Globe } from '@phosphor-icons/react';
+import { Certificate, ShieldCheck, Globe } from '@phosphor-icons/react';
 
 const certificates = [
   {
-    icon: SealCheck,
-    name: 'ISO 22000',
-    description: 'Food Safety Management',
-    year: '2023',
-  },
-  {
-    icon: Leaf,
-    name: 'USDA Organic',
-    description: 'Certified Organic Products',
-    year: '2023',
-  },
-  {
     icon: Certificate,
     name: 'FSSAI',
-    description: 'Food Safety Standards',
+    description: 'Food Safety Standards Authority of India',
     year: '2024',
   },
   {
-    icon: Medal,
-    name: 'GMP Certified',
-    description: 'Good Manufacturing Practice',
-    year: '2023',
-  },
-  {
     icon: ShieldCheck,
-    name: 'HACCP',
-    description: 'Hazard Analysis Critical Control',
+    name: 'Spice Board of India',
+    description: 'Government of India Certification',
     year: '2024',
   },
   {
@@ -101,7 +83,7 @@ export const CertificatesSection = () => {
           initial="hidden"
           animate={isInView ? 'visible' : 'hidden'}
           variants={containerVariants}
-          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6"
+          className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto"
         >
           {certificates.map((cert, index) => (
             <motion.div
