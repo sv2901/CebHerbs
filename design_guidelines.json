@@ -1,0 +1,154 @@
+{
+  "brand_identity": {
+    "name": "Cutting Edge Botanical",
+    "brand_name": "CEB Herbs",
+    "tagline": "Pure. Potent. Premium.",
+    "archetype": "Organic & Earthy",
+    "tone": "Luxury, Trustworthy, Scientific, Natural",
+    "audience": "B2B Buyers, Cosmetic Brands, Importers",
+    "keywords": ["Premium", "Export", "Natural", "Organic", "Purity"]
+  },
+  "theme": {
+    "mode": "light",
+    "background_strategy": "Layered",
+    "primary_color": "#1A4D2E",
+    "secondary_color": "#F5F5F0",
+    "accent_color": "#D4AF37",
+    "text_color": "#1A1A1A"
+  },
+  "typography": {
+    "headings": {
+      "family": "Playfair Display",
+      "weights": ["400", "600", "700"],
+      "usage": "Hero titles, Section headers, Product names",
+      "letter_spacing": "-0.02em"
+    },
+    "body": {
+      "family": "Manrope",
+      "weights": ["400", "500", "600"],
+      "usage": "Paragraphs, UI elements, Buttons",
+      "line_height": "1.6"
+    },
+    "accents": {
+      "family": "Caveat",
+      "usage": "Signatures, 'Organic' stamps, testimonials"
+    }
+  },
+  "colors": {
+    "primary": {
+      "DEFAULT": "#1A4D2E",
+      "foreground": "#FFFFFF",
+      "50": "#E8F5E9",
+      "100": "#C8E6C9",
+      "900": "#0D2818"
+    },
+    "secondary": {
+      "DEFAULT": "#F5F5F0",
+      "foreground": "#1A4D2E"
+    },
+    "accent": {
+      "DEFAULT": "#D4AF37",
+      "foreground": "#FFFFFF"
+    },
+    "background": "#F9F9F7",
+    "surface": "#FFFFFF",
+    "border": "#E2E2DF"
+  },
+  "visual_enhancers": {
+    "glassmorphism": "backdrop-blur-md bg-white/70 border border-white/20 shadow-sm",
+    "shadows": {
+      "card": "0 4px 20px -2px rgba(26, 77, 46, 0.08)",
+      "hover": "0 10px 40px -2px rgba(26, 77, 46, 0.12)"
+    },
+    "gradients": "linear-gradient(135deg, #1A4D2E 0%, #2E5D42 100%)",
+    "textures": "Subtle grain overlay on backgrounds"
+  },
+  "layout_strategies": {
+    "hero": {
+      "type": "Parallax",
+      "description": "Full-screen hero with deep green overlay and high-res botanical background. Text centered or left-aligned with elegant typography.",
+      "motion": "Slow vertical scroll parallax for background, fade-up for text."
+    },
+    "products_grid": {
+      "type": "Masonry/Grid",
+      "columns": "grid-cols-1 md:grid-cols-2 lg:grid-cols-3",
+      "gap": "gap-8",
+      "card_style": "Minimalist, large image area, elegant serif typography for titles."
+    },
+    "trust_section": {
+      "type": "Icon Row",
+      "style": "Clean vector icons with gold accent color, centered text."
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "rounded-full px-8 py-6 bg-[#1A4D2E] text-white hover:bg-[#143A22] transition-all duration-300 text-lg font-medium shadow-lg hover:shadow-xl hover:-translate-y-1",
+      "secondary": "rounded-full px-8 py-6 border-2 border-[#1A4D2E] text-[#1A4D2E] hover:bg-[#1A4D2E] hover:text-white transition-all duration-300"
+    },
+    "cards": {
+      "product": "group relative overflow-hidden rounded-2xl bg-white shadow-card hover:shadow-hover transition-all duration-500",
+      "feature": "p-8 rounded-xl bg-[#F5F5F0]/50 border border-[#1A4D2E]/10 hover:border-[#1A4D2E]/30 transition-colors"
+    },
+    "navbar": {
+      "style": "fixed top-0 w-full z-50 transition-all duration-300",
+      "scrolled": "bg-white/90 backdrop-blur-md shadow-sm py-4",
+      "transparent": "bg-transparent py-6"
+    }
+  },
+  "motion": {
+    "library": "framer-motion",
+    "entrance": {
+      "initial": { "opacity": 0, "y": 20 },
+      "animate": { "opacity": 1, "y": 0 },
+      "transition": { "duration": 0.6, "ease": "easeOut" }
+    },
+    "hover": {
+      "scale": 1.02,
+      "lift": -5
+    },
+    "scroll": "lenis"
+  },
+  "assets": {
+    "logo_url": "https://customer-assets.emergentagent.com/job_4a3e8e8d-95cc-44d6-bee2-dd4f6dc12cb2/artifacts/mxjd7dyk_Ns%20Logo%202%20-%202.png",
+    "images": {
+      "hero_bg": "https://images.unsplash.com/photo-1692296112607-a504764fbc3a?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "about_bg": "https://images.unsplash.com/photo-1758968492803-805fb83bb276?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "categories": {
+        "herbs": "https://images.unsplash.com/photo-1628088037513-14c88ec36997?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "spices": "https://images.unsplash.com/photo-1690983322070-22861e13ce47?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "culinary": "https://images.unsplash.com/photo-1690983322070-22861e13ce47?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "dried_flowers": "https://images.unsplash.com/photo-1553499944-3cea7081e412?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "gums_minerals": "https://images.unsplash.com/photo-1658315216383-0981970a596b?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "oil_seeds": "https://images.unsplash.com/photo-1687472238829-59855ebda1f8?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "sea_shells": "https://images.unsplash.com/photo-1564844692289-c250f04bc5ab?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "oleoresins": "https://images.pexels.com/photos/8450222/pexels-photo-8450222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "extracts": "https://images.unsplash.com/photo-1754513345664-7b8df119ceb7?crop=entropy&cs=srgb&fm=jpg&q=85"
+      },
+      "trust": {
+        "lab": "https://images.unsplash.com/photo-1552256028-2c58c3cbfa7a?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "export": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?crop=entropy&cs=srgb&fm=jpg&q=85"
+      }
+    }
+  },
+  "instructions_to_main_agent": [
+    "Install dependencies: `yarn add framer-motion lenis @phosphor-icons/react`",
+    "Configure Tailwind with the provided color palette (Forest Green primary, Bone White secondary).",
+    "Use `Playfair Display` for all Headings and `Manrope` for all body text. Import them via Google Fonts.",
+    "Implement `Lenis` for smooth scrolling in `App.js`.",
+    "Create a 'Sticky Glass' Navbar that changes style on scroll.",
+    "Build a Parallax Hero section using framer-motion scroll transforms.",
+    "Use the provided image URLs for the Product Grid. Do not use placeholders.",
+    "For Certificates: If no specific images are available, use Phosphor Icons (SealCheck, Medal, Certificate) inside elegant gold-bordered badges.",
+    "Ensure the WhatsApp Floating Button is always visible (z-50) at bottom-right.",
+    "Do NOT use gradients for backgrounds. Use solid colors or the provided textures.",
+    "Maintain generous padding (py-24, py-32) between sections."
+  ],
+  "UNIVERSAL_GUIDELINES": [
+    "Avoid generic AI designs. Use asymmetry and layered elements.",
+    "Every interaction must have a micro-animation.",
+    "Use 2-3x more spacing than typical.",
+    "Ensure high contrast for accessibility.",
+    "Use data-testid attributes for all interactive elements.",
+    "Do not use simple transparent backgrounds for dropdowns/overlays; use blur."
+  ]
+}
