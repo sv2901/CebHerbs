@@ -44,12 +44,12 @@ const products = [
   {
     name: 'Oleoresins',
     description: 'Concentrated natural flavor extracts',
-    image: 'https://customer-assets.emergentagent.com/job_ceb-herbs-premium/artifacts/nu1hfluh_Herbal%20Extract.jpg',
+    image: 'https://images.pexels.com/photos/8450222/pexels-photo-8450222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
   },
   {
     name: 'Herbal Extract',
     description: 'Potent botanical extracts for wellness',
-    image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?crop=entropy&cs=srgb&fm=jpg&q=85&w=600',
+    image: 'https://customer-assets.emergentagent.com/job_ceb-herbs-premium/artifacts/nu1hfluh_Herbal%20Extract.jpg',
   },
 ];
 
